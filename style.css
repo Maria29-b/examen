@@ -1,43 +1,51 @@
-body{
+body {
     background-color: black;
     color: white;
 }
-#header{
+
+#header {
     background-color: rgba(0, 0, 0, 0);
 }
-#nav-bar{
-    background-color:  rgba(0, 0, 0, 0.5);
+
+#nav-bar {
+    background-color: rgba(0, 0, 0, 0.5);
 }
-#titre{
-font-size: 30px;
+
+#titre {
+    font-size: 30px;
 
 }
-#titreo{
+
+#titreo {
     color: #ff7800;
 }
-#btnC{
+
+#btnC {
     background-color: #ff7800;
     border: 1px solid #ff7800;
     border-radius: 5px;
 }
-.nav-bar{
-    background-color:  rgba(0,0,0,0.5);
+
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.5);
 }
-#contact{
-  
+
+#contact {
+
     padding: 4px;
     margin: 5px;
     border: 1px solid #ff7800;
     border-radius: 5px;
-    background-color:#ff7800 ;
+    background-color: #ff7800;
     font-size: 15px;
-  
+
 }
 
-.carousel-item{
+.carousel-item {
     position: relative;
 
 }
+
 .text-overlay {
     position: absolute;
     top: 50%;
@@ -45,73 +53,87 @@ font-size: 30px;
     transform: translate(-50%, -50%);
     color: white;
     text-align: left;
-    
+
     padding: 20px;
     border-radius: 10px;
     width: 80%;
 }
-.txt{
+
+.txt {
     font-size: 80px;
 }
-#section2{
+
+#section2 {
     margin: 10px;
 }
-#cntct{
+
+#cntct {
     list-style-type: none
 }
 
 
-#imgs2{
+#imgs2 {
     width: 400px;
 }
-#imgo{
+
+#imgo {
     opacity: 0.5;
 }
-#ads{
+
+#ads {
     background-color: black;
 }
-#aside{
+
+#aside {
     display: flex;
     align-items: center;
 }
-#section3{
+
+#section3 {
     background-color: #222222;
-  
+
     padding: 10px;
 }
-#titres3{
+
+#titres3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col{
+
+.col {
     background-color: black;
     margin: 15PX;
 }
-ul{
+
+ul {
     list-style-type: none
 }
 
-#imgm{
+#imgm {
     width: 200px;
 }
-#ft{
+
+#ft {
     margin-top: 10px;
 }
-#tc{
+
+#tc {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    
+
 
 }
-#social{
-    display:flex;
+
+#social {
+    display: flex;
     flex-direction: column;
-    
+
 }
-#social a{
+
+#social a {
     color: rgb(255, 255, 255);
 }
