@@ -1,0 +1,25 @@
+#header{
+    background-color: rgba(0,0,0,0.5);
+}
+#nav-bar{
+    background-color:  rgba(0,0,0,0.5);
+}
+#titreo{
+    color: #ff7800;
+}
+.nav-bar{
+    background-color:  rgba(0,0,0,0.5);
+}
+#contact{
+  
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:#ff7800 ;
+    font-size: 15px;
+  ;
+}
+#cntct{
+    list-style-type: none
+}
