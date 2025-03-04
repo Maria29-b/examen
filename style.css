@@ -50,6 +50,9 @@ font-size: 30px;
     border-radius: 10px;
     width: 80%;
 }
+.txt{
+    font-size: 80px;
+}
 #section2{
     margin: 10px;
 }
@@ -60,6 +63,9 @@ font-size: 30px;
 
 #imgs2{
     width: 400px;
+}
+#imgo{
+    opacity: 0.5;
 }
 #ads{
     background-color: black;
@@ -87,3 +93,25 @@ ul{
     list-style-type: none
 }
 
+#imgm{
+    width: 200px;
+}
+#ft{
+    margin-top: 10px;
+}
+#tc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    
+
+}
+#social{
+    display:flex;
+    flex-direction: column;
+    
+}
+#social a{
+    color: rgb(255, 255, 255);
+}

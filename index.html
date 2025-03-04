@@ -14,7 +14,7 @@
     <header class="fixed-top" id="header">
 
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-dark style="background-color: black;>
                 <div class="container-fluid" id="nav-bar" style="color: black;">
                     <a class="navbar-brand" href="#" id="titre"><span id="titreo">FLIX</span>PRIME</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -22,7 +22,7 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown" >
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -75,62 +75,67 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/banner1.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner1.jpg" class="d-block w-100" alt="..." id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>The best current series </h3>
+                            <h3 class="txt">The best current series </h3>
                             <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/banner2.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner2.jpg" class="d-block w-100" alt="..."id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>The highest-grossing films </h3>
+                            <h3 class="txt">The highest-grossing films </h3>
+                            <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/banner3.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner3.jpg" class="d-block w-100" alt="..."id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>All world football </h3>
+                            <h3 class="txt">All world football </h3>
+                            <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/banner4.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner4.jpg" class="d-block w-100" alt="..."id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>All anime, find them here </h3>
+                            <h3 class="txt">All anime, find them here </h3>
+                            <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/banner5.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner5.jpg" class="d-block w-100" alt="..."id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>classic movies of a lifetime </h3>
+                            <h3 class="txt">classic movies of a lifetime </h3>
+                            <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/banner6.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/banner6.jpg" class="d-block w-100" alt="..." id="imgo">
                     <div class="container">
                         <div class="text-overlay">
                             <p>ALL FOR ONLY S/19.90 PER MONTH </p>
-                            <h3>Live local TV from all over Latin America </h3>
+                            <h3 class="txt">Live local TV from all over Latin America </h3>
+                            <button id="btnC">Try it for free</button>
                         </div>
 
                     </div>
@@ -203,11 +208,19 @@
     </div>
     </section>
 
-    <footer>
+    <footer class="container" id="ft">
         <div class="row">
             <div class="col-4">
 <h2><span>FLIX</span>PRIME</h2>
 <P>Leading IPTV service with all programming in one place. With Flix Prime you don't need any more platforms.</P>
+<div class="row" id="social">
+    <ul>
+    <li class="col-3"><a href="">fb</a></li>
+    <li class="col-3"><a href="">in</a></li>
+    <li class="col-3"><a href="">x</a></li>
+    <li class="col-3"><a href="">g</a></li>
+</ul>
+</div>
             </div>
             <div class="col-2">
 <h2>Countries</h2>
@@ -231,10 +244,11 @@
             </div>
             <div class="col-4">
 <h2>Worldwide coverage</h2>
-<img src="" alt="">
+<img id="imgm" src="./assets/images/map.png" alt="">
             </div>
             <div class="row">
                 
+                <a href="" id="tc">Terms and Conditions</a>
             </div>
         </div>
     </footer>
