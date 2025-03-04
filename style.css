@@ -6,7 +6,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
 }
 #nav-bar{
-    background-color:  rgba(0,0,0,0.5);
+    background-color:  rgba(0, 0, 0, 0.5);
 }
 #titre{
 font-size: 30px;
@@ -70,7 +70,7 @@ font-size: 30px;
 }
 #section3{
     background-color: #222222;
-    margin: 10px;
+  
     padding: 10px;
 }
 #titres3{
@@ -82,5 +82,8 @@ font-size: 30px;
 .col{
     background-color: black;
     margin: 15PX;
+}
+ul{
+    list-style-type: none
 }
 
